@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Koperasi UMKM IT Solution x Kopi Brewasa | Solusi Digital & Kuliner</title>
+  <meta name="description"
+    content="Kolaborasi Koperasi UMKM IT Solution dan Kopi Brewasa. Pusat layanan servis laptop, percetakan dokumen, ATK, serta kopi artisanal berkualitas di satu tempat.">
+  <meta name="theme-color" content="#2C1810">
+
+  <!-- Open Graph Meta -->
+  <meta property="og:title" content="Koperasi UMKM IT Solution x Kopi Brewasa">
+  <meta property="og:description"
+    content="Solusi Digital dan Kuliner dalam Satu Tempat. Servis IT cepat, print murah, dan racikan kopi artisanal.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ==================== ANNOUNCEMENT BAR ==================== -->
+  <div class="announcement-bar">
+    <div class="container announcement-content">
+      <span class="announcement-badge">Kolaborasi Resmi</span>
+      <p class="announcement-text">
+        Nikmati ngopi berkualitas sambil print tugas &amp; servis laptop! Buka Senin - Sabtu 08.00 - 22.00 WIB
+      </p>
+      <div class="announcement-links">
+        <a href="https://instagram.com/its_hmpti" target="_blank" rel="noopener noreferrer"
+          title="Instagram IT Solution">@its_hmpti</a>
+        <span class="divider">•</span>
+        <a href="https://instagram.com/kopibrewasa" target="_blank" rel="noopener noreferrer"
+          title="Instagram Kopi Brewasa">@kopibrewasa</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== NAVBAR (STICKY) ==================== -->
+  <header class="site-header" id="navbar">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo" aria-label="Beranda Koperasi UMKM IT Solution x Kopi Brewasa">
+        <div class="brand-icon-wrapper">
+          <img src="assets/logo.svg" alt="Logo IT Solution x Kopi Brewasa" class="brand-icon-img" width="40" height="40"
+            onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'><rect width=\'40\' height=\'40\' rx=\'10\' fill=\'%232C1810\'/><text x=\'50%25\' y=\'55%25\' dominant-baseline=\'middle\' text-anchor=\'middle\' fill=\'%23DDB892\' font-size=\'14\' font-weight=\'bold\'>IT×B</text></svg>'">
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">IT Solution <span class="brand-cross">×</span> Kopi Brewasa</span>
+          <span class="brand-subtitle">Koperasi UMKM &amp; Co-Working Hub</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu" aria-label="Navigasi Utama">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#tentang" class="nav-link">Tentang Kami</a></li>
+          <li class="nav-item"><a href="#layanan" class="nav-link">Layanan</a></li>
+          <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+          <li class="nav-item"><a href="#review" class="nav-link">Review</a></li>
+          <li class="nav-item"><a href="#lokasi" class="nav-link">Lokasi</a></li>
+        </ul>
+        <div class="nav-cta-wrapper mobile-only">
+          <a href="#lokasi" class="btn btn-primary btn-cta">
+            <span>Hubungi Kami</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+      </nav>
+
+      <!-- Right Header Actions -->
+      <div class="nav-actions">
+        <a href="#lokasi" class="btn btn-primary btn-cta desktop-only">
+          <span>Hubungi Kami</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+
+        <!-- Hamburger Button -->
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Buka Menu Navigasi" aria-expanded="false"
+          aria-controls="navMenu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Backdrop Overlay -->
+  <div class="nav-backdrop" id="navBackdrop"></div>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <div class="hero-pill">
+            <span class="pill-dot"></span>
+            <span>Sinergi Digital &amp; Kopi Artisanal</span>
+          </div>
+
+          <h1 class="hero-title">
+            Solusi Digital dan Kuliner dalam <span class="highlight-text">Satu Tempat</span>
+          </h1>
+
+          <p class="hero-description">
+            Kemitraan strategis antara Koperasi UMKM IT Solution dan Kopi Brewasa. Nikmati kemudahan reparasi laptop,
+            instalasi aplikasi, cetak dokumen kilat, penyediaan ATK lengkap, serta sajian kopi artisanal dan aneka
+            camilan lezat yang menemani waktu produktif Anda.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#layanan" class="btn btn-primary btn-lg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+              <span>Jelajahi Layanan</span>
+            </a>
+            <a href="#menu" class="btn btn-secondary btn-lg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3" />
+              </svg>
+              <span>Lihat Menu</span>
+            </a>
+          </div>
+
+          <!-- Feature Quick Stats -->
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-number">10+</span>
+              <span class="metric-label">Layanan IT Terpadu</span>
+            </div>
+            <div class="metric-separator"></div>
+            <div class="metric-item">
+              <span class="metric-number">38+</span>
+              <span class="metric-label">Menu &amp; Produk Pilihan</span>
+            </div>
+            <div class="metric-separator"></div>
+            <div class="metric-item">
+              <span class="metric-number">100%</span>
+              <span class="metric-label">Harga Mahasiswa</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase -->
+        <div class="hero-visual reveal">
+          <div class="hero-card-main">
+            <!-- Floating Badges -->
+            <div class="floating-badge badge-top-right">
+              <div class="badge-icon-wrap coffee-bg">☕</div>
+              <div>
+                <span class="badge-title">Butterscotch Latte</span>
+                <span class="badge-sub">Signature Kopi Brewasa</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-left">
+              <div class="badge-icon-wrap it-bg">💻</div>
+              <div>
+                <span class="badge-title">Servis &amp; Print Kilat</span>
+                <span class="badge-sub">Mulai Rp500/lembar</span>
+              </div>
+            </div>
+
+            <!-- Visual Hero Gallery Display using Actual Assets -->
+            <div class="hero-gallery-box">
+              <div class="hero-img-stack">
+                <div class="hero-img-item hero-img-coffee">
+                  <img src="assets/coffee/butterscotch.jpg" alt="Butterscotch Latte Kopi Brewasa"
+                    class="hero-showcase-photo" onerror="this.src='assets/coffee/americano.jpg'">
+                  <span class="hero-photo-tag">☕ Kopi Brewasa</span>
+                </div>
+                <div class="hero-img-item hero-img-service">
+                  <img src="assets/services/photo & video editing.jpg" alt="Photo & Video Editing IT Solution"
+                    class="hero-showcase-photo" onerror="this.src='assets/services/jilid.jpg'">
+                  <span class="hero-photo-tag">💻 IT Solution</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bottom trust ticker -->
+            <div class="hero-card-footer">
+              <span class="trust-point">⚡ Servis Cepat &amp; Transparan</span>
+              <span class="bullet">•</span>
+              <span class="trust-point">☕ Biji Kopi Pilihan</span>
+              <span class="bullet">•</span>
+              <span class="trust-point">📶 Wi-Fi Kencang &amp; Colokan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TENTANG KAMI SECTION ==================== -->
+    <section class="about-section" id="tentang">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Profil Usaha &amp; Kemitraan</span>
+          <h2 class="section-title">Kolaborasi IT Solution &amp; Kopi Brewasa</h2>
+          <p class="section-subtitle">
+            Dua entitas lokal yang berpadu menghadirkan ekosistem kerja produktif dan santai dalam satu tempat terpadu.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Story Card -->
+          <div class="about-story-card reveal">
+            <div class="story-badge">Cerita Kolaborasi</div>
+            <h3 class="story-heading">Menghubungkan Kebutuhan Akademik, Digital &amp; Gaya Hidup</h3>
+            <p class="story-paragraph">
+              Koperasi UMKM IT Solution dan Kopi Brewasa hadir menjawab tantangan mahasiswa dan masyarakat umum yang
+              menginginkan tempat menyelesaikan tugas, konsultasi laptop, serta kebutuhan cetak dokumen tanpa harus
+              kehilangan momen santai menikmati kopi bermutu.
+            </p>
+            <p class="story-paragraph">
+              Kini Anda tidak perlu berpindah-pindah lokasi. Sembari menunggu proses instalasi sistem, perakitan video,
+              atau penjilidan proposal, Anda dapat mencicipi secangkir <em>Aren Latte</em> yang legit gurih atau
+              <em>Butterscotch</em> wangi yang memanjakan lidah, ditemani camilan favorit dengan harga yang sangat ramah
+              di kantong.
+            </p>
+
+            <div class="story-features">
+              <div class="story-feat-item">
+                <div class="feat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                  </svg>
+                </div>
+                <div>
+                  <strong>All-in-One Community Spot</strong>
+                  <p>Layanan IT, fotokopi, ATK, makanan ringan, dan racikan kopi berkualitas di satu titik.</p>
+                </div>
+              </div>
+
+              <div class="story-feat-item">
+                <div class="feat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 6v6l4 2" />
+                  </svg>
+                </div>
+                <div>
+                  <strong>Pengerjaan Rapi &amp; Tepat Waktu</strong>
+                  <p>Teknisi andal untuk laptop dan barista berdedikasi untuk kenikmatan minuman Anda.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pillars Cards -->
+          <div class="about-pillars reveal">
+            <!-- IT Solution Pillar -->
+            <div class="pillar-card it-pillar">
+              <div class="pillar-header">
+                <div class="pillar-icon it-icon-box">💻</div>
+                <div>
+                  <h4 class="pillar-title">Koperasi UMKM IT Solution</h4>
+                  <span class="pillar-tag">Divisi Teknologi &amp; Jasa Mahasiswa</span>
+                </div>
+              </div>
+              <p class="pillar-desc">
+                Menyediakan solusi komprehensif mulai dari perawatan perangkat keras, pembaruan software, editing
+                multimedia, desain grafis promosi, percetakan dokumen, hingga perlengkapan ATK harian.
+              </p>
+              <div class="pillar-tags">
+                <span>Hardware</span>
+                <span>Software</span>
+                <span>Percetakan</span>
+                <span>ATK &amp; Snack</span>
+              </div>
+            </div>
+
+            <!-- Kopi Brewasa Pillar -->
+            <div class="pillar-card coffee-pillar">
+              <div class="pillar-header">
+                <div class="pillar-icon coffee-icon-box">☕</div>
+                <div>
+                  <h4 class="pillar-title">Kopi Brewasa</h4>
+                  <span class="pillar-tag">Artisanal Coffee &amp; Drinks</span>
+                </div>
+              </div>
+              <p class="pillar-desc">
+                Kedai kopi artisanal dengan bahan baku biji kopi pilihan dan sirup racikan khas seperti butterscotch,
+                aren alami, caramel, serta aneka kreasi non-kopi segar untuk menjaga fokus Anda.
+              </p>
+              <div class="pillar-tags">
+                <span>Espresso Bar</span>
+                <span>Signature Latte</span>
+                <span>Non-Kopi</span>
+                <span>Extra Flavors</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== LAYANAN IT SOLUTION ==================== -->
+    <section class="services-section" id="layanan">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Komprehensif &amp; Terpercaya</span>
+          <h2 class="section-title">Katalog Layanan IT Solution</h2>
+          <p class="section-subtitle">
+            Daftar lengkap solusi digital, percetakan, multimedia, administrasi tugas, serta penyediaan ATK dan
+            konsumsi.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- 1. Print & Penjilidan -->
+          <div class="service-card reveal">
+            <div class="service-img-preview">
+              <img src="assets/services/jilid.jpg" alt="Print & Penjilidan" class="service-cover-img" loading="lazy">
+              <span class="service-badge">Dokumen &amp; Skripsi</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Print &amp; Penjilidan</h3>
+              <p class="service-text">
+                Cetak dokumen hitam putih, full color, print amplop, jilid lakban, hingga sertifikat dengan hasil tajam
+                dan rapi.
+              </p>
+              <div class="service-footer">
+                <span class="service-price-hint">Mulai Rp500</span>
+                <button class="service-btn" onclick="filterByCategory('percetakan')">Lihat Tarif →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Konsultasi Laptop/PC -->
+          <div class="service-card reveal">
+            <div class="service-img-preview placeholder-bg-1">
+              <div class="service-icon-large">💻</div>
+              <span class="service-badge">Hardware &amp; Diagnosa</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Konsultasi Laptop/PC</h3>
+              <p class="service-text">
+                Pengecekan laptop lemot, bluescreen, overheat, konsultasi upgrade SSD / RAM, dan pembersihan thermal
+                paste.
+              </p>
+              <div class="service-footer">
+                <span class="service-price-hint">Konsultasi Ramah</span>
+                <button class="service-btn" onclick="orderViaWhatsApp('Konsultasi Laptop/PC IT Solution')">Konsultasi
+                  →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Instalasi OS dan Aplikasi -->
+          <div class="service-card reveal">
+            <div class="service-img-preview">
+              <img src="assets/services/instalasi os, app, dll.jpg" alt="Instalasi OS dan Aplikasi"
+                class="service-cover-img" loading="lazy">
+              <span class="service-badge">Software &amp; OS</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Instalasi OS &amp; Aplikasi</h3>
+              <p class="service-text">
+                Install ulang sistem operasi Windows / Linux, instalasi Microsoft Office, tools pemrograman, dan
+                software kuliah.
+              </p>
+              <div class="service-footer">
+                <span class="service-price-hint">Siap Pakai</span>
+                <button class="service-btn" onclick="orderViaWhatsApp('Instalasi OS dan Aplikasi')">Pesan Jasa
+                  →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Desain Grafis -->
+          <div class="service-card reveal">
+            <div class="service-img-preview">
+              <img src="assets/services/print stiker.jpg" alt="Desain Grafis" class="service-cover-img" loading="lazy">
+              <span class="service-badge">Kreatif &amp; Promosi</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Desain Grafis</h3>
+              <p class="service-text">
+                Pembuatan materi visual kreatif seperti poster kegiatan kampus, feed Instagram, banner, stiker, dan
+                brosur UMKM.
+              </p>
+              <div class="service-footer">
+                <span class="service-price-hint">Revisi Fleksibel</span>
+                <button class="service-btn" onclick="orderViaWhatsApp('Jasa Desain Grafis')">Order Desain →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Photo & Video Editing -->
+          <div class="service-card reveal">
+            <div class="service-img-preview">
+              <img src="assets/services/photo & video editing.jpg" alt="Photo & Video Editing" class="service-cover-img"
+                loading="lazy">
+              <span class="service-badge">Multimedia</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Photo &amp; Video Editing</h3>
+              <p class="service-text">
+                Editing video tugas kelompok, reels promosi, color grading, pas foto resmi, hingga perakitan video
+                dokumentasi.
+              </p>
+              <div class="service-footer">
+                <span class="service-price-hint">Resolusi HD</span>
+                <button class="service-btn" onclick="orderViaWhatsApp('Jasa Photo dan Video Editing')">Tanya Editor
+                  →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6. Web Sederhana -->
+          <div class="service-card reveal">
+            <div class="service-img-preview placeholder-bg-2">
+              <div class="service-icon-large">🌐</div>
+              <span class="service-badge">Digitalisasi</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Web Sederhana</h3>
+              <p class="service-text">
+                Pembuatan landing page profil UMKM, portofolio interaktif mahasiswa, dan website tugas kuliah yang
+                responsif di HP.
+              </p>
+              <div class="service-footer">
+                <span class="service-price-hint">Modern &amp; Cepat</span>
+                <button class="service-btn" onclick="orderViaWhatsApp('Pembuatan Web Sederhana')">Konsultasi Web
+                  →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7. Pengetikan -->
+          <div class="service-card reveal">
+            <div class="service-img-preview placeholder-bg-3">
+              <div class="service-icon-large">⌨️</div>
+              <span class="service-badge">Administrasi</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Pengetikan Dokumen</h3>
+              <p class="service-text">
+                Bantuan pengetikan cepat untuk tugas makalah, transkripsi rekaman wawancara skripsi, dan rekap data
+                rapi.
+              </p>
+              <div class="service-footer">
+                <span class="service-price-hint">Rapi &amp; Akurat</span>
+                <button class="service-btn" onclick="orderViaWhatsApp('Jasa Pengetikan Dokumen')">Kirim Materi
+                  →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8. Penjualan ATK -->
+          <div class="service-card reveal">
+            <div class="service-img-preview">
+              <img src="assets/alat tulis/pulpen.jpg" alt="Penjualan ATK" class="service-cover-img" loading="lazy">
+              <span class="service-badge">Kebutuhan Kampus</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Penjualan ATK</h3>
+              <p class="service-text">
+                Sedia pulpen, tip-ex merah/biru, peniti, tisu basah &amp; kering, dan perlengkapan ujian lengkap di
+                lokasi.
+              </p>
+              <div class="service-footer">
+                <span class="service-price-hint">Mulai Rp2.000</span>
+                <button class="service-btn" onclick="filterByCategory('alat-tulis')">Lihat ATK →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 9. Snack -->
+          <div class="service-card reveal">
+            <div class="service-img-preview">
+              <img src="assets/food/choco pie.jpg" alt="Snack Camilan" class="service-cover-img" loading="lazy">
+              <span class="service-badge">Camilan Nugas</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Snack &amp; Camilan</h3>
+              <p class="service-text">
+                Pilihan snack lezat seperti Nextar, Choco Pie, Kalpa, Beng-Beng, Siip, dan Triks untuk mengganjal lapar
+                saat nugas.
+              </p>
+              <div class="service-footer">
+                <span class="service-price-hint">Mulai Rp1.000</span>
+                <button class="service-btn" onclick="filterByCategory('makanan')">Lihat Snack →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 10. Minuman -->
+          <div class="service-card reveal">
+            <div class="service-img-preview">
+              <img src="assets/drinks/milku.jpg" alt="Minuman Segar" class="service-cover-img" loading="lazy">
+              <span class="service-badge">Minuman Dingin</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Minuman IT Solution</h3>
+              <p class="service-text">
+                Pilihan minuman segar kemasan botol dan sachet: Ichitan, Good Day, Milku, Pocari, Ultramilk, Floridina,
+                dan Golda.
+              </p>
+              <div class="service-footer">
+                <span class="service-price-hint">Mulai Rp4.000</span>
+                <button class="service-btn" onclick="filterByCategory('minuman')">Lihat Minuman →</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== MENU & KATALOG PRODUK ==================== -->
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Katalog Terpadu</span>
+          <h2 class="section-title">Katalog Menu, Produk &amp; Percetakan</h2>
+          <p class="section-subtitle">
+            Gunakan fitur pencarian atau filter kategori untuk menemukan produk yang Anda inginkan. Pesan langsung via
+            WhatsApp!
+          </p>
+        </div>
+
+        <!-- Controls: Search & Category Filter -->
+        <div class="catalog-controls reveal">
+          <!-- Live Search Bar -->
+          <div class="search-box-wrapper">
+            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            <input type="text" id="productSearchInput" class="search-input"
+              placeholder="Cari kopi, minuman, snack, ATK, atau layanan print..." aria-label="Cari produk dan menu">
+            <button id="clearSearchBtn" class="clear-search-btn" aria-label="Hapus pencarian"
+              style="display: none;">✕</button>
+          </div>
+
+          <!-- Category Filter Pills -->
+          <div class="category-pills" id="categoryFilterContainer">
+            <button class="cat-pill active" data-category="all">Semua (<span id="count-all">0</span>)</button>
+            <button class="cat-pill" data-category="kopi">☕ Kopi Brewasa</button>
+            <button class="cat-pill" data-category="non-kopi">🍵 Non Kopi Brewasa</button>
+            <button class="cat-pill" data-category="extra">➕ Extra &amp; Syrup</button>
+            <button class="cat-pill" data-category="minuman">🥤 Minuman IT</button>
+            <button class="cat-pill" data-category="makanan">🥐 Makanan &amp; Snack</button>
+            <button class="cat-pill" data-category="alat-tulis">✏️ Alat Tulis</button>
+            <button class="cat-pill" data-category="percetakan">🖨️ Percetakan</button>
+          </div>
+        </div>
+
+        <!-- Catalog Status Information -->
+        <div class="catalog-status">
+          <span id="catalogResultInfo">Menampilkan semua item produk</span>
+        </div>
+
+        <!-- Dynamic Product Cards Grid -->
+        <div class="products-grid" id="productsGrid">
+          <!-- Rendered dynamically by script.js -->
+        </div>
+
+        <!-- Empty State Container -->
+        <div class="empty-state" id="emptyState" style="display: none;">
+          <div class="empty-icon">🔍</div>
+          <h3>Produk Tidak Ditemukan</h3>
+          <p>Maaf, tidak ada produk atau menu yang cocok dengan kata kunci pencarian Anda.</p>
+          <button class="btn btn-primary btn-sm" id="resetSearchBtn">Tampilkan Semua Produk</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== REVIEW & RATING SECTION ==================== -->
+    <section class="review-section" id="review">
+      <div class="container">
+        <!-- Demonstration Review Badge -->
+        <div class="demo-badge-wrap reveal">
+          <span class="demo-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="12" y1="16" x2="12" y2="12" />
+              <line x1="12" y1="8" x2="12.01" y2="8" />
+            </svg>
+            Ulasan Demonstrasi (Contoh Mockup Testimoni Pelanggan)
+          </span>
+        </div>
+
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Testimoni Pengunjung</span>
+          <h2 class="section-title">Apa Kata Mereka Tentang Kami?</h2>
+          <p class="section-subtitle">
+            Cerita pengalaman nyata mahasiswa, penggiat organisasi, dan pelanggan setia IT Solution x Kopi Brewasa.
+          </p>
+        </div>
+
+        <!-- Overall Rating Summary Card -->
+        <div class="rating-summary-card reveal">
+          <div class="rating-large-score">
+            <span class="score-number">4.9</span>
+            <div class="score-stars">
+              <span class="star-filled">★</span>
+              <span class="star-filled">★</span>
+              <span class="star-filled">★</span>
+              <span class="star-filled">★</span>
+              <span class="star-filled">★</span>
+            </div>
+            <span class="score-text">Rata-rata dari 150+ Pengunjung Kampus</span>
+          </div>
+          <div class="rating-divider"></div>
+          <div class="rating-highlights">
+            <div class="highlight-item">
+              <strong>100%</strong>
+              <span>Kecepatan Print &amp; Jilid</span>
+            </div>
+            <div class="highlight-item">
+              <strong>98%</strong>
+              <span>Kelezatan Kopi Brewasa</span>
+            </div>
+            <div class="highlight-item">
+              <strong>99%</strong>
+              <span>Keramahan Pelayanan</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reviews Grid -->
+        <div class="reviews-grid">
+          <!-- Review 1 -->
+          <div class="review-card reveal">
+            <div class="review-header">
+              <div class="avatar-circle">RR</div>
+              <div class="reviewer-meta">
+                <h4 class="reviewer-name">Rizky Ramadhan</h4>
+                <span class="reviewer-role">Mahasiswa Teknik Informatika</span>
+              </div>
+            </div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Kombinasi tempat terbaik di sekitar kampus! Laptop saya sempat error pas mau demo tugas akhir, tim IT
+              Solution langsung bantu instalasi dengan cepat. Sambil nunggu, saya ngopi <em>Butterscotch Latte</em> Kopi
+              Brewasa. Harganya mahasiswa banget tapi rasanya sekelas kafe mahal!"
+            </p>
+            <div class="review-footer-tag">Servis Laptop &amp; Kopi Susu</div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="review-card reveal">
+            <div class="review-header">
+              <div class="avatar-circle">AP</div>
+              <div class="reviewer-meta">
+                <h4 class="reviewer-name">Amanda Putri</h4>
+                <span class="reviewer-role">Desainer Freelance &amp; Mahasiswi</span>
+              </div>
+            </div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Aren Latte dan Matcha Latte Kopi Brewasa bener-bener nagih dan bikin mood ngerjain revisi desain balik
+              lagi. Wi-Fi di sini kencang, banyak colokan listrik, dan kalau butuh cetak stiker atau amplop tinggal
+              pesan di tempat."
+            </p>
+            <div class="review-footer-tag">Aren Latte &amp; Co-Working</div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="review-card reveal">
+            <div class="review-header">
+              <div class="avatar-circle">DS</div>
+              <div class="reviewer-meta">
+                <h4 class="reviewer-name">Dimas Satria</h4>
+                <span class="reviewer-role">Mahasiswa Tingkat Akhir</span>
+              </div>
+            </div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Cetak skripsi dan jilid di sini rapi banget tanpa ada halaman yang miring. Tarif print hitam putih Rp500
+              per lembar sangat bersahabat buat kantong semester akhir. Sambil nunggu jilid, bisa ngemil Choco Pie dan
+              minum Floridina dingin."
+            </p>
+            <div class="review-footer-tag">Jilid Skripsi &amp; Snack</div>
+          </div>
+
+          <!-- Review 4 -->
+          <div class="review-card reveal">
+            <div class="review-header">
+              <div class="avatar-circle">FP</div>
+              <div class="reviewer-meta">
+                <h4 class="reviewer-name">Fadhil Pratama</h4>
+                <span class="reviewer-role">Ketua Divisi Acara Ormawa</span>
+              </div>
+            </div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Kemarin pesan print sertifikat dan amplop untuk kebutuhan seminar kampus. Pelayanannya sangat kooperatif,
+              hasil warna cerah tajam dan pengerjaan tepat waktu. Sangat merekomendasikan kolaborasi IT Solution &amp;
+              Kopi Brewasa!"
+            </p>
+            <div class="review-footer-tag">Print Sertifikat &amp; Amplop</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== LOKASI & KONTAK SECTION ==================== -->
+    <section class="location-section" id="lokasi">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Kunjungi Gerai Kami</span>
+          <h2 class="section-title">Lokasi &amp; Kontak Terpadu</h2>
+          <p class="section-subtitle">
+            Kunjungi gerai kami di area kampus atau hubungi kami melalui kanal komunikasi resmi di bawah ini.
+          </p>
+        </div>
+
+        <div class="location-grid">
+          <!-- Information Card -->
+          <div class="location-info-card reveal">
+            <h3 class="info-title">Pusat Layanan &amp; Kedai Kopi</h3>
+            <p class="info-intro">
+              Kami siap melayani kebutuhan akademik, konsultasi perangkat IT, serta menyediakan racikan minuman kopi
+              segar setiap hari kerja.
+            </p>
+
+            <ul class="contact-list">
+              <!-- Alamat Placeholder -->
+              <li class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <div class="contact-text">
+                  <strong>Alamat Gerai (Placeholder):</strong>
+                  <p id="addressText">Gedung Student Center / Kantin Kampus Lt. 1, Jl. Kolaborasi Akademik No. 12, Area
+                    Kampus</p>
+                  <small class="editable-note">*Alamat dapat disesuaikan pada file konfigurasi script.js</small>
+                </div>
+              </li>
+
+              <!-- WhatsApp Placeholder -->
+              <li class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                </div>
+                <div class="contact-text">
+                  <strong>WhatsApp Resmi (Placeholder):</strong>
+                  <p><a href="javascript:void(0)" onclick="orderViaWhatsApp('Informasi Umum')" class="contact-link"
+                      id="waDisplayNumber">+62 812-3456-7890 (Klik untuk Chat)</a></p>
+                  <small class="editable-note">*Nomor WhatsApp dapat diatur di script.js</small>
+                </div>
+              </li>
+
+              <!-- Jam Buka -->
+              <li class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                </div>
+                <div class="contact-text">
+                  <strong>Jam Operasional:</strong>
+                  <p>Senin – Sabtu: 08.00 – 22.00 WIB</p>
+                  <p>Minggu / Hari Libur: 10.00 – 20.00 WIB</p>
+                </div>
+              </li>
+
+              <!-- Social Media & Website -->
+              <li class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+                    <path d="M2 12h20" />
+                  </svg>
+                </div>
+                <div class="contact-text">
+                  <strong>Media Sosial &amp; Website Resmi:</strong>
+                  <div class="social-tags-list">
+                    <a href="https://instagram.com/its_hmpti" target="_blank" rel="noopener noreferrer"
+                      class="social-badge-link" title="Instagram IT Solution">
+                      <span class="badge-icon">📸</span>
+                      <span>@its_hmpti</span>
+                    </a>
+                    <a href="https://instagram.com/kopibrewasa" target="_blank" rel="noopener noreferrer"
+                      class="social-badge-link" title="Instagram Kopi Brewasa">
+                      <span class="badge-icon">☕</span>
+                      <span>@kopibrewasa</span>
+                    </a>
+                    <a href="https://brewasa.com" target="_blank" rel="noopener noreferrer" class="social-badge-link"
+                      title="Website Resmi Kopi Brewasa">
+                      <span class="badge-icon">🌐</span>
+                      <span>brewasa.com</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <!-- Quick Action CTA Buttons -->
+            <div class="contact-cta-buttons">
+              <button class="btn btn-primary" onclick="orderViaWhatsApp('Konsultasi Layanan IT Solution')">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z" />
+                </svg>
+                <span>WhatsApp IT Solution</span>
+              </button>
+              <button class="btn btn-secondary" onclick="orderViaWhatsApp('Pemesanan Kopi Brewasa')">
+                <span>WhatsApp Kopi Brewasa</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Google Maps Embed Area -->
+          <div class="location-map-card reveal">
+            <div class="map-container-inner">
+              <div class="map-header">
+                <div class="map-title-wrap">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  <span>Peta Lokasi Interaktif</span>
+                </div>
+                <span class="map-status-pill">Area Kampus &amp; Co-Working</span>
+              </div>
+
+              <!-- Interactive Maps Container -->
+              <div class="map-frame-wrapper">
+                <iframe id="googleMapIframe" title="Peta Lokasi IT Solution x Kopi Brewasa"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126920.28312061413!2d106.759478!3d-6.2297465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e49fe3accb%3A0x301576d14feb9e0!2sJakarta!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+                  loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  aria-label="Google Maps lokasi IT Solution x Kopi Brewasa">
+                </iframe>
+
+                <div class="map-overlay-card">
+                  <div class="map-pin-pulse"></div>
+                  <div>
+                    <strong>IT Solution x Kopi Brewasa</strong>
+                    <p>Lokasi strategis dekat parkiran mahasiswa &amp; perpustakaan.</p>
+                  </div>
+                  <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-sm btn-primary map-btn">
+                    Buka Rute Maps
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <!-- Col 1: About Collab -->
+      <div class="footer-col footer-about">
+        <div class="footer-brand">
+          <div class="brand-icon-wrapper small">
+            <img src="assets/logo.svg" alt="Logo IT Solution x Kopi Brewasa" width="36" height="36"
+              onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'><rect width=\'40\' height=\'40\' rx=\'8\' fill=\'%233D2314\'/><text x=\'50%25\' y=\'55%25\' dominant-baseline=\'middle\' text-anchor=\'middle\' fill=\'%23DDB892\' font-size=\'14\' font-weight=\'bold\'>IT×B</text></svg>'">
+          </div>
+          <span class="footer-brand-title">IT Solution <span class="brand-cross">×</span> Kopi Brewasa</span>
+        </div>
+        <p class="footer-description">
+          Kolaborasi strategis Koperasi UMKM IT Solution dan Kopi Brewasa. Pusat layanan terpadu yang memadukan solusi
+          kebutuhan teknologi, servis komputer, percetakan dokumen kilat, dan kenikmatan kopi artisanal berkualitas
+          untuk mendukung produktivitas mahasiswa dan komunitas kampus.
+        </p>
+        <div class="footer-social-icons">
+          <a href="https://instagram.com/its_hmpti" target="_blank" rel="noopener noreferrer"
+            aria-label="Instagram IT Solution (@its_hmpti)">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+            </svg>
+          </a>
+          <a href="https://instagram.com/kopibrewasa" target="_blank" rel="noopener noreferrer"
+            aria-label="Instagram Kopi Brewasa (@kopibrewasa)">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3" />
+            </svg>
+          </a>
+          <a href="https://brewasa.com" target="_blank" rel="noopener noreferrer"
+            aria-label="Website Kopi Brewasa (brewasa.com)">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Col 2: Quick Navigation -->
+      <div class="footer-col">
+        <h4 class="footer-heading">Navigasi Halaman</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#tentang">Tentang Kami</a></li>
+          <li><a href="#layanan">Layanan IT Solution</a></li>
+          <li><a href="#menu">Menu &amp; Katalog Produk</a></li>
+          <li><a href="#review">Review &amp; Rating</a></li>
+          <li><a href="#lokasi">Lokasi &amp; Kontak</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Layanan Unggulan -->
+      <div class="footer-col">
+        <h4 class="footer-heading">Layanan Unggulan</h4>
+        <ul class="footer-links">
+          <li><a href="#layanan">Print &amp; Penjilidan Dokumen</a></li>
+          <li><a href="#layanan">Konsultasi &amp; Servis Komputer</a></li>
+          <li><a href="#layanan">Instalasi Software &amp; OS</a></li>
+          <li><a href="#layanan">Desain Grafis &amp; Video Editing</a></li>
+          <li><a href="#menu">Kopi Susu &amp; Butterscotch Latte</a></li>
+          <li><a href="#menu">Snack &amp; Kuliner Siap Santap</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Informasi Kontak & Jam Buka -->
+      <div class="footer-col">
+        <h4 class="footer-heading">Kontak &amp; Gerai</h4>
+        <div class="footer-contact-details">
+          <p>
+            <strong>Alamat:</strong><br>
+            Gedung Student Center / Kantin Kampus Lt. 1, Area Kampus
+          </p>
+          <p>
+            <strong>WhatsApp:</strong><br>
+            <a href="javascript:void(0)" onclick="orderViaWhatsApp('Pertanyaan Umum')" class="footer-wa-link">+62
+              812-3456-7890</a>
+          </p>
+          <p>
+            <strong>Jam Operasional:</strong><br>
+            Senin - Sabtu: 08.00 - 22.00 WIB<br>
+            Minggu: 10.00 - 20.00 WIB
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Copyright Bar -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-content">
+        <p class="copyright-text">
+          &copy; 2026 Koperasi UMKM IT Solution x Kopi Brewasa. All rights reserved.
+        </p>
+        <p class="footer-subtext">
+          Sinergi Inovatif Mahasiswa &amp; UMKM Lokal • Dirancang untuk Produktivitas Maksimal.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== BACK TO TOP BUTTON ==================== -->
+  <button id="backToTopBtn" class="back-to-top" aria-label="Kembali ke atas">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15" />
+    </svg>
+  </button>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+
+</html>

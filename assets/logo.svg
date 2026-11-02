@@ -1,0 +1,12 @@
+<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="40" height="40" rx="10" fill="#2C1810"/>
+  <!-- Tech / Circuit line -->
+  <path d="M8 20H14M14 20L17 14M14 20L17 26" stroke="#DDB892" stroke-width="2" stroke-linecap="round"/>
+  <!-- Coffee Cup -->
+  <path d="M19 14H31V23C31 25.7614 28.7614 28 26 28H24C21.2386 28 19 25.7614 19 23V14Z" stroke="#F5EBE1" stroke-width="2"/>
+  <path d="M31 17H33.5C34.8807 17 36 18.1193 36 19.5C36 20.8807 34.8807 22 33.5 22H31" stroke="#F5EBE1" stroke-width="2"/>
+  <!-- Steam -->
+  <path d="M22 10C22 10 23 8.5 23 7.5" stroke="#C68B59" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M27 11C27 11 28 9.5 28 8" stroke="#C68B59" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="25" cy="32" r="1.5" fill="#DDB892"/>
+</svg>
